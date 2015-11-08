@@ -1,5 +1,8 @@
 # ShoppingMall
 一个简单的商场的demo，里面我写了各种布局。
+上班比较忙，我写了大约百分之30。以后每周都会更新。
+代码很多来自网上，没有标明出处，如有侵权，深表歉意。
+请联系1038127753@qq.com。这边会在第一时间标明出处。
 
 <img src="http://www.17yxb.cn/zb_users/upload/2015/11/201511081741397563.png" />
 <img src="http://www.17yxb.cn/zb_users/upload/2015/11/201511081741271271.png" />
