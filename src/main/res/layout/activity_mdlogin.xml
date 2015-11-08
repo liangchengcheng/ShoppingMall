@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="cxsjcj.hdsx.com.activity.login.MDLogin">
+
+    <RelativeLayout
+        android:id="@+id/rl_head"
+        android:background="?attr/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Sign In"
+            android:textColor="#fff"
+            android:textSize="26sp"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/rl_head"
+        android:id="@+id/ll"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInput0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/et_name"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:layout_below="@+id/name"
+                android:layout_marginBottom="-1dip"
+                android:layout_marginRight="-5dip"
+                android:layout_marginTop="-1dip"
+                android:hint="请输入你的用户名"
+                android:textColorHint="?attr/colorPrimary"
+                android:paddingLeft="4dip" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_below="@+id/textInput0"
+            android:layout_marginTop="20dp"
+            android:id="@+id/textInput1"
+            style="@style/FloatingStyle"
+            app:hintTextAppearance="@style/FloatingStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+
+                android:id="@+id/et_phone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_marginBottom="-1dip"
+                android:layout_marginRight="-5dip"
+                android:textColorHint="?attr/colorPrimary"
+                android:layout_marginTop="-1dip"
+                android:hint="请输入你的密码"
+                android:paddingLeft="4dip" />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/ll"
+        android:text="LOGIN"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:background="?attr/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+    <TextView
+        android:layout_below="@+id/btn_login"
+        android:layout_marginTop="20dp"
+        android:textColor="?attr/colorPrimary"
+        android:text="忘记了密码？"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F5F5"
+    tools:context="cxsjcj.hdsx.com.activity.order.OrderProgressActiviy">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/ToolbarTheme"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:layout_collapseMode="pin" />
+
+        <LinearLayout
+            android:id="@+id/ll"
+            android:layout_below="@+id/toolbar"
+            android:orientation="vertical"
+            android:background="?attr/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:orientation="horizontal"
+               android:layout_height="wrap_content">
+               <de.hdodenhof.circleimageview.CircleImageView
+                   android:id="@+id/avatar"
+                   android:layout_marginTop="3dp"
+                   android:layout_marginLeft="5dp"
+                   android:layout_width="80dp"
+                   android:layout_marginBottom="3dp"
+                   android:layout_height="80dp"
+                  />
+               <LinearLayout
+                   android:layout_marginLeft="15dp"
+                   android:orientation="vertical"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+                   <TextView
+                       android:textColor="#fff"
+                       android:layout_marginTop="3dp"
+                       android:layout_weight="1"
+                       android:layout_width="match_parent"
+                       android:text="物流的订单号：8815642333"
+                       android:layout_height="match_parent" />
+                   <TextView
+                       android:textColor="#fff"
+                       android:layout_marginTop="3dp"
+                       android:layout_weight="1"
+                       android:layout_width="match_parent"
+                       android:text="物流地址：山东省威海市环翠区"
+                       android:layout_height="match_parent" />
+                   <TextView
+                       android:textColor="#fff"
+                       android:layout_marginTop="3dp"
+                       android:layout_weight="1"
+                       android:layout_width="match_parent"
+                       android:text="收件人：梁铖城"
+                       android:layout_height="match_parent" />
+                   <TextView
+                       android:textColor="#fff"
+                       android:layout_marginTop="3dp"
+                       android:layout_weight="1"
+                       android:layout_marginBottom="3dp"
+                       android:layout_width="match_parent"
+                       android:text="收件人电话：1881349871"
+                       android:layout_height="match_parent" />
+               </LinearLayout>
+           </LinearLayout>
+            <TextView
+                android:background="#EDEDED"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+            <LinearLayout
+               android:layout_width="match_parent"
+               android:orientation="horizontal"
+               android:layout_height="wrap_content">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/avatar1"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                   />
+
+              <LinearLayout
+                  android:layout_marginLeft="15dp"
+                  android:layout_width="match_parent"
+                  android:orientation="vertical"
+                  android:layout_height="wrap_content">
+                  <TextView
+                      android:layout_marginTop="10dp"
+                      android:layout_weight="1"
+                      android:textColor="#fff"
+                      android:layout_width="match_parent"
+                      android:text="四月是你的谎言同款钢琴，买就送小提琴 "
+                      android:layout_height="match_parent" />
+                  <TextView
+                      android:textColor="#fff"
+                      android:layout_marginTop="10dp"
+                      android:layout_weight="1"
+                      android:layout_width="match_parent"
+                      android:text="黑色皇家至尊版"
+                      android:layout_height="match_parent" />
+                  <TextView
+                      android:layout_marginBottom="3dp"
+                      android:layout_marginTop="10dp"
+                      android:textColor="#fff"
+                      android:layout_weight="1"
+                      android:layout_width="match_parent"
+                      android:text=" 此商品7天无理由退换"
+                      android:layout_height="match_parent" />
+              </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    <ListView
+        android:layout_below="@+id/ll"
+        android:id="@+id/lv_route_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@null"
+        android:divider="@null"
+        android:dividerHeight="0dip"
+        android:paddingBottom="5dip"
+        android:scrollbars="none" />
+</RelativeLayout>

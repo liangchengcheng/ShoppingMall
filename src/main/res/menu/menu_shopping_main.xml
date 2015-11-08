@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_shoppingcar"
+        android:title="购物车"
+        android:orderInCategory="90"
+        android:icon="@drawable/ic_local_grocery_store_white_36dp"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:orderInCategory="100"
+        android:id="@+id/share"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/abc_ic_menu_share_mtrl_alpha"
+        android:title="@string/share" />
+</menu>

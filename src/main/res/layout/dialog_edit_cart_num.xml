@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    android:background="#FFF"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="12dip"
+        android:paddingRight="12dip"
+        android:paddingTop="6dip"
+        android:paddingBottom="6dip">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Space X 电动车"
+            android:layout_centerVertical="true"
+            android:textSize="18sp"
+            android:textColor="#333" />
+
+        <TextView
+            android:id="@+id/tv_dialog_cart_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textSize="14sp"
+            android:textColor="@color/red" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/tv_dialog_cart_price"
+            android:layout_marginRight="2dip"
+            android:textSize="14sp"
+            android:text="价格"
+            android:textColor="?attr/colorPrimary" />
+
+        <TextView
+            android:id="@+id/tv_dialog_cart_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tv_dialog_cart_price"
+            android:layout_marginTop="4dip"
+            android:textSize="14sp"
+            android:textColor="@color/red" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_dialog_cart_price"
+            android:layout_toLeftOf="@+id/tv_dialog_cart_count"
+            android:layout_marginRight="2dip"
+            android:layout_marginTop="6dip"
+            android:text="数量"
+            android:textSize="14sp"
+            android:textColor="?attr/colorPrimary" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dip"
+        android:layout_marginBottom="14dip"
+        android:background="#D2D2D2" />
+
+    <include layout="@layout/view_dialognum_edittext" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dip"
+        android:layout_marginTop="14dip"
+        android:background="#D2D2D2" />
+
+    <LinearLayout
+        android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="12dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textSize="18sp"
+            android:id="@+id/btn_cart_dialog_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="取消"
+            android:layout_marginRight="18dip"
+            android:textColor="?attr/colorPrimary" />
+
+        <TextView
+            android:textSize="18sp"
+            android:id="@+id/btn_cart_dialog_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="确定"
+            android:textColor="?attr/colorPrimary"
+            />
+    </LinearLayout>
+</LinearLayout>

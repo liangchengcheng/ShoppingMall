@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_item_bg"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <CheckBox
+                    android:theme="@style/Color1SwitchStyle"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:layout_marginLeft="2dp"
+                    android:id="@+id/cb_cart_all_check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true" />
+            </LinearLayout>
+
+            <ImageView
+                android:padding="5dp"
+                android:id="@+id/iv_shoppingimage"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/cheese_1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:textSize="16sp"
+                    android:id="@+id/tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="名称：材料装饰城 "
+                    android:textColor="#000" />
+                <LinearLayout
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:paddingRight="8dp"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+
+                        android:id="@+id/tv_price_vip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="￥199 "
+                        android:textColor="@color/red" />
+                    <TextView
+                        android:id="@+id/sum"
+                        android:textColor="@color/red"
+                        android:text="单价1000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/item_selector"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <cxsjcj.hdsx.com.view.HSFNumEditText
+                        android:id="@+id/net_cart_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/iv_product_num_des"
+                            android:layout_width="24dip"
+                            android:layout_height="24dip"
+                            android:src="@drawable/edit_product_num_des_selector" />
+
+                        <EditText
+                            android:focusableInTouchMode="false"
+                            android:clickable="true"
+                            android:id="@+id/et_product_num"
+                            android:layout_width="54dip"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="4dip"
+                            android:layout_marginRight="4dip"
+                            android:background="@mipmap/cart_product_count_bg"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:textSize="14sp"
+                            android:text="1" />
+
+                        <ImageView
+                            android:id="@+id/iv_product_num_add"
+                            android:layout_width="24dip"
+                            android:layout_height="24dip"
+                            android:src="@drawable/edit_product_num_add_selector" />
+
+                    </cxsjcj.hdsx.com.view.HSFNumEditText>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="colors">
+        <item>#3F51B5</item>
+        <item>#9E9E9E</item>
+        <item>#424242</item>
+        <item>#1F1F1F</item>
+        <item>#607D8B</item>
+        <item>#795548</item>
+        <item>#D32F2F</item>
+        <item>#E91E63</item>
+        <item>#9C27B0</item>
+        <item>#5E35B1</item>
+        <item>#1E88E5</item>
+        <item>#03A9F4</item>
+        <item>#00BCD4</item>
+        <item>#009688</item>
+        <item>#4CAF50</item>
+        <item>#8BC34A</item>
+        <item>#CDDC39</item>
+        <item>#FFEB3B</item>
+        <item>#FFC107</item>
+        <item>#FF9800</item>
+        <item>#FF5722</item>
+    </array>
+
+    <string-array name="preference_values">
+        <item>Twitter</item>
+        <item>Google</item>
+        <item>Instagram</item>
+        <item>Facebook</item>
+    </string-array>
+    <string-array name="guangdong">
+        <item>广东一区</item>
+        <item>广东二区</item>
+        <item>广东三区</item>
+        <item>广东四区</item>
+        <item>广东五区</item>
+        <item>广东六区</item>
+        <item>广东七区</item>
+        <item>广东八区</item>
+        <item>广东九区</item>
+        <item>广东十区</item>
+        <item>广东十一区</item>
+        <item>广东十二区</item>
+        <item>广东十三区</item>
+    </string-array>
+    <string-array name="fujian">
+        <item>福建一区</item>
+        <item>福建二区</item>
+        <item>福建3/4区</item>
+    </string-array>
+    <string-array name="zhejiang">
+        <item>浙江一区</item>
+        <item>江浙二区</item>
+        <item>浙江三区</item>
+        <item>浙江4/5区</item>
+        <item>江浙六区</item>
+        <item>浙江七区</item>
+    </string-array>
+    <string-array name="beijing">
+        <item>北京一区</item>
+        <item>北京2/4区</item>
+        <item>北京三区</item>
+    </string-array>
+    <string-array name="shanghai">
+        <item>上海一区</item>
+        <item>上海二区</item>
+        <item>上海三区</item>
+        <item>上海4/5区</item>
+    </string-array>
+    <string-array name="sichuan">
+        <item>四川一区</item>
+        <item>四川二区</item>
+        <item>四川三区</item>
+        <item>四川四区</item>
+        <item>四川五区</item>
+        <item>四川六区</item>
+    </string-array>
+    <string-array name="hunan">
+        <item>湖南一区</item>
+        <item>湖南二区</item>
+        <item>湖南三区</item>
+        <item>湖南四区</item>
+        <item>湖南五区</item>
+        <item>湖南六区</item>
+        <item>湖南七区</item>
+    </string-array>
+    <string-array name="shandong">
+        <item>山东一区</item>
+        <item>山东2/7区</item>
+        <item>山东三区</item>
+        <item>山东四区</item>
+        <item>山东五区</item>
+        <item>山东六区</item>
+    </string-array>
+    <string-array name="jiangsu">
+        <item>江苏一区</item>
+        <item>江苏二区</item>
+        <item>江苏三区</item>
+        <item>江苏四区</item>
+        <item>江苏5/7区</item>
+        <item>江苏六区</item>
+        <item>江苏八区</item>
+    </string-array>
+    <string-array name="hubei">
+        <item>湖北一区</item>
+        <item>湖北二区</item>
+        <item>湖北三区</item>
+        <item>湖北四区</item>
+        <item>湖北五区</item>
+        <item>湖北六区</item>
+        <item>湖北七区</item>
+        <item>湖北八区</item>
+    </string-array>
+    <string-array name="huabei">
+        <item>华北一区</item>
+        <item>华北二区</item>
+        <item>华北三区</item>
+        <item>华北四区</item>
+    </string-array>
+    <string-array name="xibei">
+        <item>西北一区</item>
+        <item>西北2/3区</item>
+    </string-array>
+    <string-array name="dongbei">
+        <item>东北一区</item>
+        <item>东北二区</item>
+        <item>东北3/7区</item>
+        <item>东北4/5/6区</item>
+    </string-array>
+    <string-array name="xinan">
+        <item>西南一区</item>
+        <item>西南二区</item>
+        <item>西南三区</item>
+    </string-array>
+    <string-array name="henan">
+        <item>河南一区</item>
+        <item>河南二区</item>
+        <item>河南三区</item>
+        <item>河南四区</item>
+        <item>河南五区</item>
+        <item>河南六区</item>
+        <item>河南七区</item>
+    </string-array>
+    <string-array name="guangxi">
+        <item>广西一区</item>
+        <item>广西2/4区</item>
+        <item>广西三区</item>
+        <item>广西五区</item>
+    </string-array>
+    <string-array name="jiangxi">
+        <item>江西一区</item>
+        <item>江西二区</item>
+        <item>江西三区</item>
+    </string-array>
+    <string-array name="anhui">
+        <item>安徽一区</item>
+        <item>安徽二区</item>
+        <item>安徽三区</item>
+    </string-array>
+    <string-array name="liaoning">
+        <item>辽宁一区</item>
+        <item>辽宁二区</item>
+        <item>辽宁三区</item>
+    </string-array>
+    <string-array name="shanxi">
+        <item>山西一区</item>
+        <item>山西二区</item>
+    </string-array>
+    <string-array name="shangxi">
+        <item>陕西一区</item>
+        <item>陕西2/3区</item>
+    </string-array>
+    <string-array name="hebei">
+        <item>河北一区</item>
+        <item>河北2/3区</item>
+        <item>河北四区</item>
+        <item>河北五区</item>
+    </string-array>
+    <string-array name="chongqing">
+        <item>重庆一区</item>
+        <item>重庆二区</item>
+    </string-array>
+    <string-array name="heilong">
+        <item>黑龙江一区</item>
+        <item>黑龙江2/3区</item>
+    </string-array>
+    <string-array name="yungui">
+        <item>云南一区</item>
+        <item>贵州一区</item>
+        <item>云贵一区</item>
+    </string-array>
+
+    <string-array name="quyu">
+        <item>广东区</item>
+        <item>福建区</item>
+        <item>浙江区</item>
+        <item>北京区</item>
+        <item>上海区</item>
+        <item>四川区</item>
+        <item>湖南区</item>
+        <item>山东区</item>
+        <item>江苏区</item>
+        <item>湖北区</item>
+        <item>华北区</item>
+        <item>西北区</item>
+        <item>东北区</item>
+        <item>西南区</item>
+        <item>河南区</item>
+        <item>广西区</item>
+        <item>江西区</item>
+        <item>安徽区</item>
+        <item>辽宁区</item>
+        <item>山西区</item>
+        <item>陕西区</item>
+        <item>广州一区</item>
+        <item>河北区</item>
+        <item>重庆区</item>
+        <item>黑龙江区</item>
+        <item>吉林一区</item>
+        <item>云贵区</item>
+        <item>天津一区</item>
+        <item>新疆一区</item>
+        <item>内蒙古一区</item>
+    </string-array>
+
+    <string-array name="zongjia">
+        <item>价格不限</item>
+        <item>100元以下</item>
+        <item>100-500元</item>
+        <item>500-1000元</item>
+        <item>1000-2000元</item>
+        <item>2000元以上</item>
+    </string-array>
+
+    <string-array name="huxing">
+        <item>不限</item>
+        <item>武器</item>
+        <item>防具</item>
+        <item>首饰</item>
+        <item>特殊装备</item>
+        <item>材料卡片等</item>
+    </string-array>
+</resources>

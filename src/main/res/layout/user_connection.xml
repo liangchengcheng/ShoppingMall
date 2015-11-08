@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v7.widget.CardView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.amap.api.maps2d.MapView
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_marginTop="90dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+
+
+                <ImageView
+
+                    android:padding="5dp"
+                    android:src="@drawable/ic_zoom_in_white_36dp"
+                    android:background="#00bcd4"
+                    android:id="@+id/clearMap2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    />
+
+                <ImageView
+                    android:layout_marginTop="1dp"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_pin_drop_white_36dp"
+                    android:background="#00bcd4"
+                    android:id="@+id/clearMap4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    />
+                <ImageView
+                    android:layout_marginTop="1dp"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_share_white_36dp"
+                    android:background="#00bcd4"
+                    android:id="@+id/clearMap5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

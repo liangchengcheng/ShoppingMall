@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    tools:context="cxsjcj.hdsx.com.activity.download.DownNewApk">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:layout_collapseMode="pin" />
+    <TextView
+        android:layout_margin="10dp"
+        android:textSize="16sp"
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:textColor="@color/primary"
+        android:text="点击的按钮，即可或者程序的最近版本，如果想要更新请点击确定按钮，不要更新点击下次更新"
+        android:layout_height="wrap_content" />
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:mrl_rippleOverlay="true"
+        app:mrl_rippleColor="?attr/colorPrimary">
+        <is.arontibo.library.ElasticDownloadView
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="40dp"
+            android:id="@+id/elastic_download_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"/>
+    </com.balysv.materialripple.MaterialRippleLayout>
+
+
+</RelativeLayout>

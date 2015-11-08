@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instamaterial.ui.view.SquaredFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/flRoot"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+
+        <LinearLayout
+            android:id="@+id/ll"
+            android:background="@drawable/button_rect_list_normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ivPhoto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</instamaterial.ui.view.SquaredFrameLayout>

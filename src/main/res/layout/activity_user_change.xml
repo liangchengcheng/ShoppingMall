@@ -1,0 +1,377 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cxsjcj.hdsx.com.activity.userinfo.UserChangeActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/ToolbarTheme"
+        app:layout_collapseMode="pin"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cd_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+               <LinearLayout
+                   android:orientation="vertical"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent">
+                   <RelativeLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:orientation="horizontal">
+
+                       <TextView
+                           android:layout_marginLeft="10dp"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_centerVertical="true"
+                           android:padding="10dp"
+                           android:text="头像"
+                           android:textSize="16sp" />
+                       <de.hdodenhof.circleimageview.CircleImageView
+                           android:layout_marginRight="5dp"
+                           android:id="@+id/iv_more"
+                           android:layout_width="80dp"
+                           android:layout_height="80dp"
+                           android:layout_alignParentRight="true"
+                           android:layout_centerVertical="true" />
+                   </RelativeLayout>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="1dp"
+                       android:background="#EDEDED" />
+                   <RelativeLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:orientation="horizontal">
+
+                       <TextView
+                           android:layout_marginLeft="10dp"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_centerVertical="true"
+                           android:padding="10dp"
+                           android:text="用户名"
+                           android:textSize="16sp" />
+
+                       <TextView
+                           android:layout_alignParentRight="true"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_centerVertical="true"
+                           android:gravity="end"
+                           android:padding="10dp"
+                           android:text="小城521"
+                           android:textSize="16sp" />
+                   </RelativeLayout>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="1dp"
+                       android:background="#EDEDED" />
+                   <RelativeLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:orientation="horizontal">
+
+                       <TextView
+                           android:layout_marginLeft="10dp"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_centerVertical="true"
+                           android:padding="10dp"
+                           android:text="收货地址"
+                           android:textSize="16sp" />
+
+                       <TextView
+                           android:layout_alignParentRight="true"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_centerVertical="true"
+                           android:gravity="end"
+                           android:padding="10dp"
+                           android:text="3个"
+                           android:textSize="16sp" />
+                   </RelativeLayout>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="20dp"
+                       android:background="#EDEDED" />
+
+                   <RelativeLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:orientation="horizontal">
+
+                       <TextView
+                           android:textColor="?attr/colorPrimary"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_centerVertical="true"
+                           android:padding="10dp"
+                           android:text="账号绑定"
+                           android:textSize="14sp" />
+                   </RelativeLayout>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="1dp"
+                       android:background="#EDEDED" />
+                   <RelativeLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:orientation="horizontal">
+
+                       <ImageView
+                           android:layout_centerVertical="true"
+                           android:layout_marginLeft="10dp"
+                           android:id="@+id/iv_phone"
+                           android:layout_width="wrap_content"
+                           android:src="@drawable/accounts_icon_mobile"
+                           android:layout_height="wrap_content" />
+                       <TextView
+                           android:layout_toRightOf="@+id/iv_phone"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_centerVertical="true"
+                           android:padding="10dp"
+                           android:text="手机"
+                           android:textSize="16sp" />
+
+                       <TextView
+                           android:layout_alignParentRight="true"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_centerVertical="true"
+                           android:gravity="end"
+                           android:padding="10dp"
+                           android:text="188****9871"
+                           android:textSize="16sp" />
+                   </RelativeLayout>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="1dp"
+                       android:background="#EDEDED" />
+                   <RelativeLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:orientation="horizontal">
+                       <ImageView
+                           android:layout_centerVertical="true"
+                           android:layout_marginLeft="10dp"
+                           android:id="@+id/iv_weixin"
+                           android:layout_width="wrap_content"
+                           android:src="@drawable/accounts_icon_weichat"
+                           android:layout_height="wrap_content" />
+                       <TextView
+                           android:layout_toRightOf="@+id/iv_weixin"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_centerVertical="true"
+                           android:padding="10dp"
+                           android:text="微信"
+                           android:textSize="16sp" />
+
+                       <TextView
+                           android:layout_alignParentRight="true"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_centerVertical="true"
+                           android:gravity="end"
+                           android:padding="10dp"
+                           android:text="未绑定"
+                           android:textSize="16sp" />
+                   </RelativeLayout>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="1dp"
+                       android:background="#EDEDED" />
+                   <RelativeLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:orientation="horizontal">
+                       <ImageView
+                           android:layout_centerVertical="true"
+                           android:layout_marginLeft="10dp"
+                           android:id="@+id/iv_qq"
+                           android:layout_width="wrap_content"
+                           android:src="@drawable/accounts_icon_qq"
+                           android:layout_height="wrap_content" />
+                       <TextView
+                           android:layout_toRightOf="@+id/iv_qq"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_centerVertical="true"
+                           android:padding="10dp"
+                           android:text="QQ"
+                           android:textSize="16sp" />
+
+                       <TextView
+                           android:layout_alignParentRight="true"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_centerVertical="true"
+                           android:gravity="end"
+                           android:padding="10dp"
+                           android:text="已绑定"
+                           android:textSize="16sp" />
+                   </RelativeLayout>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="1dp"
+                       android:background="#EDEDED" />
+                   <RelativeLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:orientation="horizontal">
+                       <ImageView
+                           android:layout_centerVertical="true"
+                           android:layout_marginLeft="10dp"
+                           android:id="@+id/iv_weibo"
+                           android:layout_width="wrap_content"
+                           android:src="@drawable/accounts_icon_weibo"
+                           android:layout_height="wrap_content" />
+                       <TextView
+                           android:layout_toRightOf="@+id/iv_weibo"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_centerVertical="true"
+                           android:padding="10dp"
+                           android:text="微博"
+                           android:textSize="16sp" />
+
+                       <TextView
+                           android:layout_alignParentRight="true"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_centerVertical="true"
+                           android:gravity="end"
+                           android:padding="10dp"
+                           android:text="未绑定"
+                           android:textSize="16sp" />
+                   </RelativeLayout>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="20dp"
+                       android:background="#EDEDED" />
+                   <RelativeLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:orientation="horizontal">
+
+                       <TextView
+                           android:textColor="?attr/colorPrimary"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_centerVertical="true"
+                           android:padding="10dp"
+                           android:text="安全设置"
+                           android:textSize="14sp" />
+                   </RelativeLayout>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="1dp"
+                       android:background="#EDEDED" />
+                   <RelativeLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:orientation="horizontal">
+
+                       <TextView
+                           android:layout_marginLeft="10dp"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_centerVertical="true"
+                           android:padding="10dp"
+                           android:text="登录密码"
+                           android:textSize="16sp" />
+
+                       <TextView
+                           android:layout_alignParentRight="true"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_centerVertical="true"
+                           android:gravity="end"
+                           android:padding="10dp"
+                           android:text="******"
+                           android:textSize="16sp" />
+                   </RelativeLayout>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="1dp"
+                       android:background="#EDEDED" />
+                   <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal">
+
+                   <TextView
+                       android:layout_marginLeft="10dp"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_centerVertical="true"
+                       android:padding="10dp"
+                       android:text="支付密码"
+                       android:textSize="16sp" />
+
+                   <TextView
+                       android:layout_alignParentRight="true"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_centerVertical="true"
+                       android:gravity="end"
+                       android:padding="10dp"
+                       android:text="******"
+                       android:textSize="16sp" />
+               </RelativeLayout>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="1dp"
+                       android:background="#EDEDED" />
+                   <RelativeLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:orientation="horizontal">
+
+                       <TextView
+                           android:layout_marginLeft="10dp"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_centerVertical="true"
+                           android:padding="10dp"
+                           android:text="登录保护"
+                           android:textSize="16sp" />
+
+                       <TextView
+                           android:layout_alignParentRight="true"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_centerVertical="true"
+                           android:gravity="end"
+                           android:padding="10dp"
+                           android:text="已开始"
+                           android:textSize="16sp" />
+                   </RelativeLayout>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="1dp"
+                       android:background="#EDEDED" />
+               </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

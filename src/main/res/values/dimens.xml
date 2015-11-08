@@ -1,0 +1,76 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="detail_backdrop_height">256dp</dimen>
+    <dimen name="card_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="list_item_avatar_size">40dp</dimen>
+    <dimen name="exitXAnimationStart">-15dp</dimen>
+    <dimen name="exitYAnimatorFinish">34dp</dimen>
+    <dimen name="enterYAnimationStart">-30dp</dimen>
+    <dimen name="enterAnimationStartValue">-25dp</dimen>
+    <dimen name="exitAnimationExitValue">25dp</dimen>
+    <dimen name="icon_size">11dp</dimen>
+    <dimen name="margin">11dp</dimen>
+    <dimen name="ball_radius">11dp</dimen>
+    <dimen name="btn_fab_size">56dp</dimen>
+    <dimen name="btn_fab_margins">16dp</dimen>
+    <dimen name="default_elevation">8dp</dimen>
+    <dimen name="comment_avatar_size">56dp</dimen>
+    <dimen name="user_profile_avatar_size">88dp</dimen>
+    <dimen name="global_menu_avatar_size">64dp</dimen>
+    <dimen name="publish_photo_thumbnail_size">96dp</dimen>
+    <dimen name="fab_size_normal">56dp</dimen>
+    <dimen name="fab_size_mini">40dp</dimen>
+    <dimen name="fab_icon_size">24dp</dimen>
+    <dimen name="fab_plus_icon_size">14dp</dimen>
+    <dimen name="fab_plus_icon_stroke">2dp</dimen>
+    <dimen name="fab_shadow_offset">3dp</dimen>
+    <dimen name="fab_shadow_radius">9dp</dimen>
+    <dimen name="fab_stroke_width">1dp</dimen>
+    <dimen name="fab_actions_spacing">16dp</dimen>
+    <dimen name="fab_labels_margin">8dp</dimen>
+    <dimen name="default_item_height">48dp</dimen>
+    <dimen name="default_item_horizontal_padd">16dp</dimen>
+    <dimen name="default_item_text_size">16sp</dimen>
+
+    <dimen name="default_list_item_height">72dp</dimen>
+    <dimen name="default_list_item_spacing">5dp</dimen>
+
+    <dimen name="activity_settings_padding_horizontal">8dp</dimen>
+    <dimen name="activity_settings_padding_vertical">8dp</dimen>
+    <dimen name="activity_settings_item_padding">16dp</dimen>
+
+    <dimen name="lay_small_gap">8dp</dimen>
+    <dimen name="lay_default_padd">16dp</dimen>
+    <dimen name="md_simplelist_icon">40dp</dimen>
+    <dimen name="md_simplelist_icon_margin">18dp</dimen>
+    <dimen name="md_content_textsize">16sp</dimen>
+    <dimen name="md_listitem_height">48dp</dimen>
+    <dimen name="md_simplelistitem_padding_top">8dp</dimen>
+    <dimen name="md_dialog_frame_margin">24dp</dimen>
+    <dimen name="drawer_width">200dp</dimen>
+    <dimen name="margin_Size10">10dp</dimen>
+    <dimen name="three_grid_unit">24dp</dimen>
+    <dimen name="one_and_a_half_grid_unit">12dp</dimen>
+    <dimen name="footer">64dp</dimen>
+
+    <!-- Text -->
+    <dimen name="text_small">14sp</dimen>
+    <dimen name="text_medium">16sp</dimen>
+    <dimen name="text_large">20sp</dimen>
+
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing">16dp</dimen>
+    <dimen name="spacing_large">20dp</dimen>
+    <dimen name="img_thumb">40dp</dimen>
+    <dimen name="img_thumb_large">100dp</dimen>
+    <dimen name="barcode_crop_width">260dp</dimen>
+    <dimen name="barcode_crop_height">140dp</dimen>
+
+    <dimen name="qrcode_crop_width">200dp</dimen>
+    <dimen name="qrcode_crop_height">200dp</dimen>
+
+    <dimen name="touch_raise">4dp</dimen>
+</resources>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ripple="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/login_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/headit" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/r"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:layout_marginRight="-5dip"
+                android:background="@drawable/edit"
+                android:hint="用户名"
+                android:paddingLeft="4dip"></EditText>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_below="@+id/textInput"
+            android:id="@+id/textInput1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:layout_below="@+id/name"
+                android:layout_marginBottom="-1dip"
+                android:layout_marginRight="-5dip"
+                android:layout_marginTop="-1dip"
+                android:background="@drawable/edit"
+                android:hint="请输入密码密码"
+                android:inputType="textPassword"
+                android:paddingLeft="4dip" />
+        </android.support.design.widget.TextInputLayout>
+        <!--<ImageView-->
+        <!--android:id="@+id/name_close"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignBottom="@+id/name"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_marginBottom="16dp"-->
+        <!--android:layout_marginRight="16dp"-->
+        <!--android:contentDescription="@drawable/close_pushbanner"-->
+        <!--android:src="@drawable/close_pushbanner"-->
+        <!--android:visibility="invisible" />-->
+
+        <!--<ImageView-->
+        <!--android:id="@+id/pass_close"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignLeft="@+id/name_close"-->
+        <!--android:layout_below="@+id/name"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:contentDescription="@drawable/close_pushbanner"-->
+        <!--android:src="@drawable/close_pushbanner"-->
+        <!--android:visibility="invisible" />-->
+
+        <!--<ProgressBar-->
+        <!--android:id="@+id/progressbar"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:indeterminate="false"-->
+        <!--android:indeterminateDrawable="@anim/load"-->
+        <!--android:visibility="gone" />-->
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dip"
+        android:gravity="left"></RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/button_weibo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+
+            android:paddingTop="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:drawableLeft="@drawable/security_row_sina"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="     微博帐号"
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/buton_qq"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_weibo"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+
+            android:paddingTop="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:drawableLeft="@drawable/security_row_qq"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="     QQ帐号"
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+
+        <cxsjcj.hdsx.com.view.water.RippleView
+            android:id="@+id/rect"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            ripple:rv_zoom="true"
+            ripple:rv_type="rectangle">
+
+            <Button
+                android:id="@+id/land"
+                android:layout_width="fill_parent"
+                android:layout_height="40dip"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#00cc00"
+                android:text="登入"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+        </cxsjcj.hdsx.com.view.water.RippleView>
+
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/forget_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/rect"
+            android:layout_alignParentBottom="true"
+
+            android:text="忘记密码" />
+
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/rect"
+
+            android:text="注册帐号"
+            android:textColor="#fff" />
+    </RelativeLayout>
+
+</LinearLayout>

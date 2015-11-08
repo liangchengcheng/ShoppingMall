@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    xmlns:shimmer="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:id="@+id/rl_welcombg"
+    android:background="@drawable/gamelogin"
+    tools:context="cxsjcj.hdsx.com.activity.welcom.WelComePage">
+    <cxsjcj.hdsx.com.view.ShimmerFrameLayout
+        android:layout_centerInParent="true"
+        android:id="@+id/shimmer_view_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        shimmer:duration="3000">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/a1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Game Tracker  英文字体使用Roboto，中文字体使用Noto。"
+                style="@style/thin.white.large"
+                android:textColor="#000"
+                />
+        </LinearLayout>
+    </cxsjcj.hdsx.com.view.ShimmerFrameLayout>
+</RelativeLayout>

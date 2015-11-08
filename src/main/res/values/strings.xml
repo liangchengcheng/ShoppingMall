@@ -1,0 +1,166 @@
+<resources>
+    <string name="app_name">Game Tracker</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+      <string name="cheese_ipsum">小城从事商业活动20余年了，专业出售各种贵重的金属和珠宝，并且在古文字等古董的收藏有一定的爱好，如果你有什
+          么好的东西想要卖给的话就联系他吧。.</string>
+    <string name="checkin">Checkin</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_settiing">SettiingActivity</string>
+    <string name="skip_button">跳过</string>
+    <string name="done_button">开始</string>
+    <string name="customized_intro">Start custom Intro</string>
+    <string name="default_intro">Start default Intro</string>
+    <string name="fade_animation">Set Fade animation</string>
+    <string name="custom_animation">Set custom Transformer</string>
+    <string name="second_layout_intro">Start Intro with Layout 2</string>
+    <string name="title_activity_default_intro">DefaultIntro</string>
+    <string name="title_activity_custom_intro">CustomIntro</string>
+    <string name="title_activity_second_intro">SecondLayoutIntro</string>
+    <string name="skip">你打算跳过我?</string>
+    <plurals name="likes_count">
+        <item quantity="one">%d like</item>
+        <item quantity="other">%d likes</item>
+    </plurals>
+    <string-array name="user_photos">
+        <item>http://i2.chinanews.com/simg/hd/2015/08/02/a96ae9db0d504498b14922c97161249a.jpg</item>
+        <item>http://i2.chinanews.com/simg/hd/2015/08/02/a96ae9db0d504498b14922c97161249a.jpg</item>
+        <item>http://i2.chinanews.com/simg/hd/2015/08/02/a96ae9db0d504498b14922c97161249a.jpg</item>
+        <item>http://i2.chinanews.com/simg/hd/2015/08/02/a96ae9db0d504498b14922c97161249a.jpg</item>
+        <item>http://i2.chinanews.com/simg/hd/2015/08/02/a96ae9db0d504498b14922c97161249a.jpg</item>
+        <item>http://i2.chinanews.com/simg/hd/2015/08/02/a96ae9db0d504498b14922c97161249a.jpg</item>
+        <item>http://i2.chinanews.com/simg/hd/2015/08/02/a96ae9db0d504498b14922c97161249a.jpg</item>
+        <item>http://i2.chinanews.com/simg/hd/2015/08/02/a96ae9db0d504498b14922c97161249a.jpg</item>
+        <item>http://i2.chinanews.com/simg/hd/2015/08/02/a96ae9db0d504498b14922c97161249a.jpg</item>
+        <item>http://i2.chinanews.com/simg/hd/2015/08/02/a96ae9db0d504498b14922c97161249a.jpg</item>
+        <item>http://i2.chinanews.com/simg/hd/2015/08/02/a96ae9db0d504498b14922c97161249a.jpg</item>
+        <item>http://i2.chinanews.com/simg/hd/2015/08/02/a96ae9db0d504498b14922c97161249a.jpg</item>
+
+    </string-array>
+    <string name="user_profile_photo">http://igcdn-photos-f-a.akamaihd.net/hphotos-ak-xpa1/t51.2885-19/929118_455075441302693_1605108410_a.jpg</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="setting">设置</string>
+    <string name="about">关于</string>
+    <string name="exit">退出</string>
+    <string name="search">搜索</string>
+    <string name="more">更多</string>
+    <string name="general_settings">常规</string>
+    <string name="other">其他</string>
+    <string name="advice_feedback">意见反馈</string>
+    <string name="give_favor">给应用点赞</string>
+    <string name="share_to_friends">分享给朋友们</string>
+    <string name="show_note_history_log">显示笔记全部操作记录</string>
+    <string name="sync">同步</string>
+    <string name="show_note_history_log_summary">开启显示笔记全部操作记录，将显示笔记所有的操作记录，否则只显示最新的操作记录</string>
+
+    <string name="note_log_text" formatted="false">%s\u0020:\u0020%s</string>
+    <string name="edit">编辑</string>
+    <string name="move_to_trash">移至回收站</string>
+    <string name="delete_forever">永久删除</string>
+    <string name="right_hand_mode">右手操作模式</string>
+    <string name="right_hand_mode_summary">开启右手操作模式，侧边栏将从右边划开，默认从左边划开</string>
+    <string name="sure">确定</string>
+    <string name="cancel">取消</string>
+    <string name="delete_forever_message">是否要永久地删除了该条笔记</string>
+    <string name="done">完成</string>
+    <string name="label">标签</string>
+    <string name="note_content">笔记内容</string>
+    <string name="new_note">新的笔记</string>
+    <string name="search_note">搜索</string>
+    <string name="edit_note">编辑笔记</string>
+    <string name="view_note">查看笔记</string>
+    <string name="show_note_history_log_key">show_note_history_log_key</string>
+    <string name="right_hand_mode_key">right_hand_mode_key</string>
+    <string name="move_success">成功移除</string>
+    <string name="recover">恢复</string>
+    <string name="create">创建</string>
+    <string name="advice_feedback_key">advice_feedback_key</string>
+    <string name="no_email_app_tip">请先安装邮件应用并设置账户,或直接发送邮件至 lgpszu@163.com</string>
+    <string name="choose_account">请选择账号</string>
+    <string name="sync_account">同步账号</string>
+    <string name="sync_account_key">sync_account_key</string>
+    <string name="no_account_tip">请在手机设置中添加一个有效的邮箱账号</string>
+    <string name="multi_account_tip">您的有效邮箱账号多于一个，请在设置中选择</string>
+    <string name="multi_account_choose_tip">您的有效邮箱账号多于一个，请点击选择</string>
+    <string name="syncing">正在后台同步中</string>
+    <string name="sync_success">同步成功</string>
+    <string name="sync_fail">同步失败，建议在网络好的时候进行同步</string>
+    <string name="pay_for_me_title">觉得不错，随意打赏</string>
+    <string name="jianshu_blog">关于作者</string>
+    <string name="project_home">项目主页</string>
+    <string name="pay_for_me_tip">如果觉得极简笔记对您有用，请随意打赏。</string>
+    <string name="pay_for_me">随意打赏</string>
+    <string name="pay_for_me_key">pay_for_me_key</string>
+    <string name="recycle_bin">回收站</string>
+    <string name="move_to">移回</string>
+    <string name="give_favor_key">give_favor_key</string>
+    <string name="card_note_item_layout">卡片式笔记</string>
+    <string name="card_note_item_layout_key">card_note_item_layout_key</string>
+    <string name="not_save_note_leave_tip">笔记已经发生变化，是否保存后再离开</string>
+    <string name="change_theme">更换主题</string>
+    <string name="change_theme_key">change_theme_key</string>
+    <string name="today" formatted="false">今天\u0020%s</string>
+    <string name="before_day" formatted="false">%d\u0020天前</string>
+    <string name="before_month" formatted="false">%d\u0020个月前</string>
+    <string name="before_year" formatted="false">%d\u0020年前</string>
+    <string name="share_text" formatted="false">极简笔记简洁好用，推荐你也来用用 %s\u0020%s</string>
+    <string name="download_url" >下载地址</string>
+    <string name="share">分享到</string>
+    <string name="not_install_app">请先安装相应客户端</string>
+    <string name="title_activity_list">List</string>
+    <string name="title_activity_wel_come_page">WelComePage</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_main_jb">MainJBActivityActivity</string>
+    <string name="title_activity_main_circle">MainCircleActivity</string>
+    <string name="title_activity_letter_main">LetterMainActivity</string>
+    <string name="title_activity_letter_choice">LetterChoice</string>
+    <string name="title_activity_down_new_apk">DownNewApk</string>
+    <string name="title_activity_main_zb">MainZBActivity</string>
+    <string name="title_activity_user_profile">UserProfileActivity</string>
+    <string name="title_activity_shopping_main">ShoppingMainActivity</string>
+    <string name="title_activity_edit_address">EditAddressActivity</string>
+    <string name="title_sheet">To Sheet</string>
+    <string name="title_toolbar">To Toolbar</string>
+    <string name="title_player">To Player</string>
+
+    <string name="description_sheet">Transform to Sheet</string>
+    <string name="description_toolbar">Transform to Toolbar</string>
+    <string name="description_player">Transform to Player</string>
+
+    <string name="activity_transition_mills">200</string>
+    <string name="title_activity_edit_address_main">EditAddressMainActivity</string>
+    <string name="title_activity_sys_tem_setting">SysTemSettingActivity</string>
+    <string name="title_activity_region">RegionActivity</string>
+    <string name="title_activity_wallect">WallectActivity</string>
+    <string name="title_activity_account">AccountActivity</string>
+    <string name="title_activity_change_password">ChangePasswordActivity</string>
+    <string name="title_activity_buy_order">BuyOrderActivity</string>
+    <string name="title_activity_deal_order">DealOrderActivity</string>
+    <string name="title_activity_news_deails">NewsDeailsActivity</string>
+    <string name="title_activity_news_main">NewsMainActivity</string>
+    <string name="title_activity_user_info">UserInfoActivity</string>
+    <string name="title_activity_shopping_car">ShoppingCarActivity</string>
+    <string name="title_activity_order_true">OrderTrueActivity</string>
+    <string name="title_activity_capture">CaptureActivity</string>
+    <string name="title_activity_shopping_true">ShoppingTrueActivity</string>
+    <string name="title_activity_shopping_picture">ShoppingPictureActivity</string>
+    <string name="title_activity_order_progress_activiy">OrderProgressActiviy</string>
+    <string name="title_activity_mdlogin">MDLogin</string>
+    <string name="title_activity_shopping_ok">ShoppingOkActivity</string>
+
+    <array name="share_dialog_text">
+        <item>微信好友</item>
+        <item>微信朋友圈</item>
+        <item>微信收藏</item>
+        <item>新浪微博</item>
+        <item>更多</item>
+    </array>
+    <string name="title_activity_user_change">UserChangeActivity</string>
+    <string name="title_activity_shopping_detail">ShoppingDetailActivity</string>
+    <string name="title_activity_shopping_done">ShoppingDone</string>
+    <string name="title_activity_search_info">SearchInfoActivity</string>
+    <string name="title_activity_shopping_list">ShoppingListActivity</string>
+</resources>

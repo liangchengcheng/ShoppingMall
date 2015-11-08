@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cxsjcj.hdsx.com.activity.main.SearchInfoActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/ToolbarTheme"
+        app:layout_collapseMode="pin"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <LinearLayout
+        android:id="@+id/ll_content"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="#fff"
+            android:background="?attr/colorPrimary"
+            android:id="@+id/tv_shopper"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="商品" />
+
+        <TextView
+            android:id="@+id/tv_dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="店铺" />
+
+        <TextView
+            android:id="@+id/tv_location"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="位置" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/sh"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/toolbar"
+        android:layout_margin="10dip"
+        android:background="@drawable/rectangle_write_bg"
+        android:drawableLeft="@drawable/wb_search_icon"
+        android:drawablePadding="5dp"
+        android:hint="请输入关键字"
+        android:padding="10dip"
+        android:textColor="#515151"
+        android:textSize="16sp"></EditText>
+    <cxsjcj.hdsx.com.view.KeywordsFlow
+        android:id="@+id/frameLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:layout_above="@+id/linearLayout1">
+    </cxsjcj.hdsx.com.view.KeywordsFlow>
+    <TextView
+        android:textSize="20sp"
+        android:textColor="#C8DF91"
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="点我一下，再换一批~" />
+
+</LinearLayout>

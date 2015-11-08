@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="32dip"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/icon_top_line"
+            android:layout_width="1dip"
+            android:layout_height="40dip"
+            android:background="#CDCDCD" />
+
+        <ImageView
+            android:id="@+id/iv_route_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dip"
+            android:src="@drawable/logistics_track_point" />
+
+        <View
+            android:id="@+id/icon_bottom_line"
+            android:layout_width="1dip"
+            android:layout_height="fill_parent"
+            android:background="#CDCDCD" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:background="@drawable/takeout_status_flow_item_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="vertical"
+        android:paddingTop="8dip" >
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="2dp"
+            android:text="这个是标题"
+            android:id="@+id/tv_route_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="12dip"
+            android:textColor="#333"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="30dp"
+            android:text="2015年9月17日22:38:00"
+            android:id="@+id/tv_route_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#666"
+            android:textSize="12sp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

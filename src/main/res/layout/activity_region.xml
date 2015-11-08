@@ -1,0 +1,147 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:focusable="true"
+    xmlns:ripple="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="cxsjcj.hdsx.com.activity.region.RegionActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/ToolbarTheme"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:layout_collapseMode="pin" />
+
+    <LinearLayout
+        android:id="@+id/ll_tip"
+        android:layout_below="@+id/toolbar"
+        android:background="#E9E9E9"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center_vertical"
+            android:text="请填下以下信息;包括你的用户名和你的密码"
+            android:layout_width="wrap_content"
+            android:textColor="?attr/colorPrimary"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/ll_tip"
+        android:layout_width="match_parent"
+        android:id="@+id/ll_username"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="25dp"
+            android:text="用户名"
+            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:layout_height="wrap_content" />
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputusername"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/et_username"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:layout_marginBottom="-1dip"
+                android:hint="请输入你的用户名"
+                android:textColorHint="?attr/colorPrimary"
+                 />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_below="@+id/ll_username"
+        android:layout_width="match_parent"
+        android:id="@+id/ll_password"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="25dp"
+            android:text="密码"
+            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:layout_height="wrap_content" />
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInput0"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/et_name"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:layout_marginBottom="-1dip"
+                android:hint="请输入你的密码"
+                android:textColorHint="?attr/colorPrimary"
+                />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_below="@+id/ll_password"
+        android:layout_width="match_parent"
+        android:id="@+id/ll_newpassword"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="25dp"
+            android:text="确认密码"
+            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:layout_height="wrap_content" />
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/newpassword"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/et_newpassword"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:layout_marginBottom="-1dip"
+                android:hint="请输入你的密码"
+                android:textColorHint="?attr/colorPrimary"
+                />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+    <cxsjcj.hdsx.com.view.water.RippleView
+        android:id="@+id/rect"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@+id/ll_newpassword"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        ripple:rv_zoom="true"
+        ripple:rv_type="rectangle">
+
+        <Button
+            android:id="@+id/land"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="?attr/colorPrimary"
+            android:text="立即注册"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+    </cxsjcj.hdsx.com.view.water.RippleView>
+</RelativeLayout>

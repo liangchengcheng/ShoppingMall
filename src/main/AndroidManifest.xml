@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cxsjcj.hdsx.com.myapplication" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_LOGS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".NetApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/welcom_page"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.DesignDemo" >
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="f7a4d58ca895528e5dfadc76e3a9fedf" />
+
+        <activity
+            android:name="cxsjcj.hdsx.com.activity.welcom.WelComePage"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.DesignDemo" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cxsjcj.hdsx.com.activity.login.LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity android:name="cxsjcj.hdsx.com.activity.detail.CheeseDetailActivity" />
+        <activity
+            android:name="cxsjcj.hdsx.com.activity.login.DefaultIntro"
+            android:label="@string/title_activity_settiing" >
+        </activity>
+        <activity
+            android:name="instamaterial.ui.activity.CommentsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.TransparentActivity" />
+        <activity
+            android:name="instamaterial.ui.activity.UserProfileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.TransparentActivity" />
+        <activity
+            android:name="instamaterial.ui.activity.TakePhotoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.TransparentActivity" />
+        <activity
+            android:name="instamaterial.ui.activity.PublishActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity android:name="instamaterial.ui.activity.MainActivity" />
+        <activity
+            android:name="cxsjcj.hdsx.com.activity.setting.SettingActivity"
+            android:label="@string/title_activity_setting"
+            android:theme="@style/MaterialSettingsTheme" >
+        </activity>
+        <activity
+            android:name="cxsjcj.hdsx.com.activity.main.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.DesignDemo" >
+        </activity>
+        <activity
+            android:name="cxsjcj.hdsx.com.test.listanimation.Main3Activity"
+            android:label="@string/title_activity_main3" >
+        </activity>
+        <activity
+            android:name="cxsjcj.hdsx.com.activity.about.AboutActivity"
+            android:label="@string/title_activity_about"
+            android:theme="@style/Theme.DesignDemo" >
+        </activity>
+        <activity
+            android:name="cxsjcj.hdsx.com.activity.main.MainJBActivityActivity"
+            android:label="@string/title_activity_main_jb" >
+        </activity>
+        <activity
+            android:name="cxsjcj.hdsx.com.activity.circle.XposedMainActivity"
+            android:excludeFromRecents="true"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cxsjcj.hdsx.com.activity.circle.MainCircleActivity"
+            android:label="@string/title_activity_main_circle" >
+        </activity>
+        <activity
+            android:name="cxsjcj.hdsx.com.activity.shioce.LetterMainActivity"
+            android:label="@string/title_activity_letter_main" >
+        </activity>
+        <activity
+            android:name="cxsjcj.hdsx.com.activity.shioce.LetterChoice"
+            android:label="@string/title_activity_letter_choice" >
+        </activity>
+        <activity
+            android:name="cxsjcj.hdsx.com.activity.download.DownNewApk"
+            android:label="@string/title_activity_down_new_apk" >
+        </activity>
+        <activity
+            android:name="cxsjcj.hdsx.com.activity.main.MainZBActivity"
+            android:label="@string/title_activity_main_zb" >
+        </activity>
+        <activity
+            android:name="instamaterial.ui.activity.UserProfileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.TransparentActivity" />
+        <activity
+            android:name="cxsjcj.hdsx.com.activity.detail.ShoppingMainActivity"
+            android:label="@string/title_activity_shopping_main"
+            android:theme="@style/AppTheme.TransparentActivity" >
+        </activity>
+        <activity
+            android:name="cxsjcj.hdsx.com.activity.address.EditAddressActivity"
+            android:label="@string/title_activity_edit_address" >
+        </activity>
+        <activity
+            android:name="cxsjcj.hdsx.com.activity.address.TransformToPlayerActivity"
+            android:label="@string/title_activity_edit_address" >
+        </activity>
+        <activity
+            android:name="cxsjcj.hdsx.com.activity.address.TransformToSheetActivity"
+            android:label="@string/title_activity_edit_address" >
+        </activity>
+        <activity
+            android:name="cxsjcj.hdsx.com.activity.address.EditAddressMainActivity"
+            android:label="@string/title_activity_edit_address_main" >
+        </activity>
+        <activity
+            android:name="cxsjcj.hdsx.com.activity.setting.SysTemSettingActivity"
+            android:label="@string/title_activity_sys_tem_setting" >
+        </activity>
+        <activity
+            android:name="cxsjcj.hdsx.com.activity.region.RegionActivity"
+            android:label="@string/title_activity_region" >
+        </activity>
+        <activity
+            android:name="cxsjcj.hdsx.com.activity.userinfo.WallectActivity"
+            android:label="@string/title_activity_wallect" >
+        </activity>
+        <activity
+            android:name="cxsjcj.hdsx.com.activity.userinfo.AccountActivity"
+            android:label="@string/title_activity_account" >
+        </activity>
+        <activity
+            android:name="cxsjcj.hdsx.com.activity.region.ChangePasswordActivity"
+            android:label="@string/title_activity_change_password" >
+        </activity>
+        <activity
+            android:name="cxsjcj.hdsx.com.activity.order.BuyOrderActivity"
+            android:label="@string/title_activity_buy_order" >
+        </activity>
+        <activity
+            android:name="cxsjcj.hdsx.com.activity.order.DealOrderActivity"
+            android:label="@string/title_activity_deal_order" >
+        </activity>
+        <activity
+            android:name="cxsjcj.hdsx.com.activity.news.NewsDeailsActivity"
+            android:label="@string/title_activity_news_deails" >
+        </activity>
+        <activity
+            android:name="cxsjcj.hdsx.com.activity.news.NewsMainActivity"
+            android:label="@string/title_activity_news_main" >
+        </activity>
+        <activity
+            android:name="cxsjcj.hdsx.com.activity.userinfo.UserInfoActivity"
+            android:label="@string/title_activity_user_info"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.TransparentActivity" >
+        </activity>
+        <activity
+            android:name="cxsjcj.hdsx.com.activity.shoppingcar.ShoppingCarActivity"
+            android:label="@string/title_activity_shopping_car" >
+        </activity>
+        <activity
+            android:name="cxsjcj.hdsx.com.activity.order.OrderTrueActivity"
+            android:label="@string/title_activity_order_true" >
+        </activity>
+        <activity
+            android:name="cxsjcj.hdsx.com.activity.main.CaptureActivity"
+            android:label="@string/title_activity_capture" >
+        </activity>
+        <activity
+            android:name="cxsjcj.hdsx.com.activity.detail.ShoppingTrueActivity"
+            android:label="@string/title_activity_shopping_true" >
+        </activity>
+        <activity
+            android:name="cxsjcj.hdsx.com.activity.detail.ShoppingPictureActivity"
+            android:label="@string/title_activity_shopping_picture" >
+        </activity>
+        <activity
+            android:name="cxsjcj.hdsx.com.activity.order.OrderProgressActiviy"
+            android:label="@string/title_activity_order_progress_activiy" >
+        </activity>
+        <activity
+            android:name="cxsjcj.hdsx.com.activity.login.MDLogin"
+            android:label="@string/title_activity_mdlogin" >
+        </activity>
+        <activity
+            android:name="cxsjcj.hdsx.com.activity.detail.ShoppingOkActivity"
+            android:label="@string/title_activity_shopping_ok" >
+        </activity>
+        <activity
+            android:name="cxsjcj.hdsx.com.activity.userinfo.UserChangeActivity"
+            android:label="@string/title_activity_user_change" >
+        </activity>
+        <activity
+            android:name="cxsjcj.hdsx.com.activity.detail.ShoppingDetailActivity"
+            android:label="@string/title_activity_shopping_detail" >
+        </activity>
+        <activity
+            android:name="cxsjcj.hdsx.com.activity.detail.ShoppingDoneActivity"
+            android:label="@string/title_activity_shopping_done" >
+        </activity>
+        <activity
+            android:name="cxsjcj.hdsx.com.activity.mylocation.MyLoationActivity"
+            android:label="@string/title_activity_shopping_done" >
+        </activity>
+
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="com.baidu.location.service_v2.2" />
+            </intent-filter>
+        </service>
+
+        <!-- meta-data需要写在application中 -->
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="DLrrfS6DZo44RHgQoOcpAHcG" />
+
+        <activity
+            android:name="cxsjcj.hdsx.com.activity.main.SearchInfoActivity"
+            android:label="@string/title_activity_search_info" >
+        </activity>
+        <activity
+            android:name="cxsjcj.hdsx.com.activity.detail.ShoppingListActivity"
+            android:label="@string/title_activity_shopping_list" >
+        </activity>
+    </application>
+
+</manifest>

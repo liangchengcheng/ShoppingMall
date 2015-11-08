@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="window_background">#FFF5F5F5</color>
+    <color name="success_stroke_color">#20BCA6</color>
+    <color name="theme_accent">#FF4081</color>
+    <color name="list_background_normal">#FCFCFC</color>
+</resources>

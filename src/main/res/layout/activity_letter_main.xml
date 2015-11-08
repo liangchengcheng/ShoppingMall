@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/ttlm"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#22a0db"
+        android:padding="10dp" >
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"
+            android:text="选择你最喜欢的一个游戏"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <cxsjcj.hdsx.com.activity.shioce.LetterListView
+        android:id="@+id/letterListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ttlm" >
+    </cxsjcj.hdsx.com.activity.shioce.LetterListView>
+
+</RelativeLayout>

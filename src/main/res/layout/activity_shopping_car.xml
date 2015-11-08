@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/ToolbarTheme"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:layout_collapseMode="pin" />
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_marginBottom="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <FrameLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/detail_buy_board"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_alignParentBottom="true"
+            android:background="#fff">
+            <TextView
+                android:background="#EDEDED"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp" />
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:id="@+id/total_sum"
+                android:textColor="@color/red"
+                android:layout_width="wrap_content"
+                android:layout_height="40.0dip"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text="总计0元"
+                android:textSize="16.0sp" />
+
+            <TextView
+                android:background="?attr/colorPrimary"
+                android:id="@+id/ok"
+                android:layout_width="80.0dip"
+                android:layout_height="40.0dip"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="0.0dip"
+                android:gravity="center"
+                android:paddingLeft="16.0dip"
+                android:paddingRight="16.0dip"
+                android:text="购买"
+                android:textColor="#fff"
+                android:textSize="16.0sp" />
+
+            <LinearLayout
+                android:id="@+id/detail_taobao_btn"
+                android:layout_width="120.0dip"
+                android:layout_height="39.0dip"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15.0dip"
+                android:background="#fff"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1.0dip"
+                    android:text="note_totaobao_btn"
+                    android:textColor="?attr/colorPrimary"
+                    android:textSize="17.0sp" />
+
+                <ImageView
+                    android:layout_width="7.0dip"
+                    android:layout_height="11.5dip"
+                    android:layout_marginLeft="10.0dip"
+                    android:src="@drawable/ic_global_menu_direct" />
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+</RelativeLayout>

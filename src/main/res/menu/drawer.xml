@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_event"
+            android:title="我的账户" />
+        <item
+            android:id="@+id/nav_messages"
+            android:icon="@drawable/ic_forum"
+            android:title="我的钱包" />
+        <item
+            android:id="@+id/nav_shoppingcar"
+            android:icon="@drawable/ic_local_grocery_store_black_24dp"
+            android:title="购物车" />
+        <item
+            android:id="@+id/nav_friends"
+            android:icon="@drawable/ic_headset"
+            android:title="我是卖家" />
+        <item
+            android:id="@+id/nav_discussion"
+            android:icon="@drawable/ic_dashboard"
+            android:title="我是买家" />
+    </group>
+    <item android:title="更多设置">
+        <menu>
+            <item
+                android:id="@+id/nav_address"
+                android:icon="@drawable/ic_room_black_24dp"
+                android:title="收货地址" />
+            <item
+                android:id="@+id/sys_setting"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="系统设置" />
+        </menu>
+    </item>
+</menu>
+

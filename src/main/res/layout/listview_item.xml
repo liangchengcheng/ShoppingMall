@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+  >
+
+    <TextView
+        android:id="@+id/tv_head"
+        android:layout_width="5dp"
+        android:layout_height="50dp"
+        android:background="#336699" />
+
+    <TextView
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/tv_head"
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="高级菜刀"
+        android:textSize="18sp" />
+
+</RelativeLayout>
